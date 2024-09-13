@@ -92,6 +92,12 @@ if ($num1 !== null && $num2 !== null && $operator) {
             font-size: 18px;
             color: #4a2c2c;
         }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -116,5 +122,6 @@ if ($num1 !== null && $num2 !== null && $operator) {
         <div class="result">Result: <?php echo htmlspecialchars($result); ?></div>
     <?php endif; ?>
 
+    <div class="footer">Created by ESRAA TAMER &copy; 2024</div>
 </body>
 </html>
